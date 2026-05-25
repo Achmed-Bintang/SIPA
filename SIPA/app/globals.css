@@ -207,4 +207,16 @@
       opacity: 0.8;
     }
   }
+  [data-v0-badge], 
+div[class*="v0-badge"],
+a[href*="v0.dev"],
+#v0-badge-container,
+.v0-badge {
+  display: none !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  }
 }
